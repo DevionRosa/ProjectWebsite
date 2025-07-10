@@ -1,7 +1,6 @@
 # webpage.py
 import git
 from flask import Flask, render_template, url_for, flash, redirect, request
-from flask_debugtoolbar import DebugToolbarExtension
 
 app = Flask(__name__) # Here's your 'app' instance
 
